@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  font-family: 'Dosis', sans-serif;
+}
+.background-iamge {
+  display: inline-block;
+  z-index: -2;
+}
+.background-iamge_inner {
+  display: inline-block;
+  z-index: -1;
+}
+.current-weather__state {
+  background: gray;
+}
+.current-weather__state_image {
+  width: 142px;
+  height: 142px;
+}
+.current-weather__desc {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 200;
+  font-size: 36px;
+}
+.current-weather__date {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+}
+.current-weather__temperature {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 200;
+  font-size: 101px;
+}
+.current-weather__next-days {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
