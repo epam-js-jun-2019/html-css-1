@@ -1,7 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+* {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+p {
+    margin: 10px;
+}
 body {
+    background: no-repeat;
     background-image: url("../img/body_bg.png");
+    -moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
 }
 main {
+    background: no-repeat;
     background-image: url("../img/main_bg.png");
+    background-size: cover; 
     margin: 7% 11% 7% 11%;
+    padding: 10%;
+
+}
+.days_nav {
+    margin: 10% 0 0 0;
+}
+.w_date {
+    margin: 20px 20px 0 0 ;
+}
+.wdata {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+.info {
+    display: table-cell;
+    text-align: left;
+    margin:0;
+}
+.wind {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cur_date {
+    font-size: 14px;
+}
+.cur_week_day {
+    font-size: 30px;
+}
+.temp {
+    font-size: 92px;
+}
+.loc {
+    font-size: 22px;
+}
+.speed_format {
+    font-size: 14px;
+}
+.wind_speed {
+    font-size: 36px;
+}
+
+ul {
+    list-style: none; 
+    margin: 0; 
+    padding-left: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+li {
+    font-size: 14px;
+    display: table-cell;
+    text-align: center;
+}
+.icon {
+    height: 40px;
 }
