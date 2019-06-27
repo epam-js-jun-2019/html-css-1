@@ -4,9 +4,38 @@
   box-sizing: border-box;
 }
 .main-container {
+  padding: 80px 110px;
+  width: 800px;
+  height: 600px;
   font-family: 'Dosis', sans-serif;
-  background: #d5d5d5;
+  font-weight: normal;
+  background-image: url("/assets/images/bg/Tokyo-bg.png");
   color: white;
+}
+.weather-widget {
+  display: flex;
+  width: 581px;
+  height: 437px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.55);
+}
+.container-1 {
+  display: flex;
+  flex: 50%;
+  flex-direction: column;
+  height: 100%;
+  background-image: url("/assets/images/bg/Tokyo-bg-inner.png");
+  border-right: 1px solid #332126;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.container-2 {
+  flex: 50%;
+  background: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .container-2 hr {
   border: none;
@@ -14,30 +43,26 @@
   background-color: #7b1f27;
   height: 1px;
 }
-.background-iamge {
-  display: inline-block;
-  z-index: -2;
-}
-.background-iamge_inner {
-  display: inline-block;
-  z-index: -1;
-}
 .current-weather__state {
-  
+
 }
 .current-weather__state_image {
   width: 142px;
   height: 142px;
 }
 .current-weather__desc {
+  text-align: center;
   font-family: 'Dosis', sans-serif;
   font-weight: 200;
   font-size: 36px;
+  background: rgba(53, 27, 36, 0.85);
 }
 .current-weather__date {
+  text-align: center;
   font-family: 'Dosis', sans-serif;
   font-weight: 300;
   font-size: 22px;
+  background: rgba(119, 25, 33, 0.85);
 }
 .current-weather__temperature {
   font-family: 'Dosis', sans-serif;
@@ -50,4 +75,7 @@
   font-weight: 400;
   font-size: 16px;
   color: #7b1f27;
+}
+.secondary-color {
+  color: #332126;
 }
