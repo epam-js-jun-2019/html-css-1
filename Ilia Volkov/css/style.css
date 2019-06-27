@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  background-color: #4e5860;
+}
+.card {
+  max-width: 389px;
+  box-shadow: 0 21px 20px 1px rgba(0, 0, 0, 0.15), 0 0 10px rgba(0, 0, 0, 0.07);
+  border-radius: 10px 10px 29px 29px;
+  background-color: #f1f8f9;
+  margin: 20px auto;
+}
+.card__top {
+  position: relative;
+
+  display: flex;
+  flex-flow: column wrap;
+
+  padding: 6.8rem 1.7rem 2.8rem 2.2rem;
+}
+.card__refresh {
+  position: absolute;
+  top: 2%;
+  left: 92%;
+  width: 21px;
+  height: 19px;
+  cursor: pointer;
+}
+.card__img {
+  width: 146px;
+  height: 121px;
+
+  margin: auto;
+}
+.card__info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 6.6rem;
+}
+.info__temp {
+  color: #8d9396;
+  font-family: "Proxima Nova";
+  font-size: 5.8rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-right: 1rem;
+}
+.info__title {
+  margin-bottom: 0.6rem;
+
+  color: #bac2c6;
+  font-family: "Source Sans Pro";
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+.info__descr {
+  color: #a2a9ad;
+  font-family: "Source Sans Pro - Semibold";
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.card__date {
+  max-width: 65px;
+  margin-left: auto;
+  margin-right: -1.7rem;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+
+  padding: 2rem 0;
+  color: #fff;
+  background-color: #54bae6;
+}
+.card__bottom {
+  padding: 4.6rem 4rem 6.8rem 4rem;
+  border-radius: 0 0 10px 10px;
+  color: #fff;
+  background-color: #2e3335;
+}
+.card__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  align-items: center;
+
+  width: 100%;
+}
+.list__item {
+  display: flex;
+  margin-left: 4.2rem;
+  align-items: center;
+}
+.list__item:first-child {
+  margin-left: 0;
+}
+.list__item span {
+  margin-left: 1.7rem;
+}
