@@ -1,0 +1,7 @@
+body {
+    background-image: url("../img/body_bg.png");
+}
+main {
+    background-image: url("../img/main_bg.png");
+    margin: 7% 11% 7% 11%;
+}
