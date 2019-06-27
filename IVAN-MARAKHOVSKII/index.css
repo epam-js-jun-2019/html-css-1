@@ -1,14 +1,13 @@
 body {
   padding: 0px;
+  background-color: #636f78;
   margin: 0px;
 }
 .grid {
-  width: 100vw;
-  height: 100vh;
   padding: 0.3rem;
   display: grid;
   grid-template: 27% 1fr 27% / 37% 1fr 37%;
-  background-color: #636f78;
+  
 }
 .widget-grid {
   border-radius: 10px;
