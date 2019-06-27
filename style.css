@@ -7,14 +7,17 @@
   padding: 80px 110px;
   width: 800px;
   height: 600px;
+  margin: auto;
   font-family: 'Dosis', sans-serif;
   font-weight: normal;
   background-image: url("/assets/images/bg/Tokyo-bg.png");
   color: white;
+  cursor: default;
 }
 .weather-widget {
   display: flex;
-  width: 581px;
+  flex-flow: column wrap;
+  width: 572px;
   height: 437px;
   border-radius: 5px;
   -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
@@ -23,7 +26,6 @@
 }
 .container-1 {
   display: flex;
-  flex: 50%;
   flex-direction: column;
   text-align: center;
   height: 100%;
@@ -34,16 +36,17 @@
 }
 .container-2 {
   display: flex;
-  flex: 50%;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+  height: 100%;
   padding-bottom: 5px;
   background: white;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 .current-weather__state {
-  flex: 240px;
+  flex: 3;
   padding-top: 43px;
 }
 .current-weather__state_image {
@@ -51,25 +54,23 @@
   height: 142px;
 }
 .current-weather__desc {
-  flex: 95px;
+  flex: 1;
   padding-top: 24px;
   font-family: 'Dosis', sans-serif;
   font-weight: 200;
   font-size: 36px;
-  background: rgba(53, 27, 36, 0.85);
+  background: rgba(53, 27, 36, 0.9);
 }
 .current-weather__date {
-  flex: 105px;
+  flex: 1;
   padding-top: 40px;
   font-family: 'Dosis', sans-serif;
   font-weight: 300;
   font-size: 22px;
-  background: rgba(119, 25, 33, 0.85);
+  background: rgba(119, 25, 33, 0.9);
   border-bottom-left-radius: 5px;
 }
 .current-weather__temperature {
-  flex: 145px;
-  padding-top: 10px;
   font-family: 'Dosis', sans-serif;
   font-weight: 200;
   font-size: 101px;
@@ -77,17 +78,20 @@
   border-bottom: 1px solid #7b1f27; 
 }
 .current-weather__graph {
-  flex: 95px;
   border-bottom: 1px solid #7b1f27; 
+}
+.current-weather__graph_image {
+  position: relative;
+  bottom: 15px;
+  left: 5px;
 }
 .current-weather__next-days {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex: 200px;
   width: 210px;
   font-family: 'Dosis', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 16px;
 }
 .day {
@@ -98,14 +102,16 @@
 }
 .current-weather__day {
   border-bottom: 1px solid #7b1f27;
-  width: 35px;
+  width: 45px;
   text-align: center;
-  padding-bottom: 13px;
+  padding-bottom: 10px;
 }
 .primary-color {
+  margin-top: 10px;
   color: #7b1f27;
 }
 .secondary-color {
-  color: #332126;
+  margin-top: 5px;
   padding-bottom: 5px;
+  color: #332126;
 }
