@@ -5,6 +5,14 @@
 }
 .main-container {
   font-family: 'Dosis', sans-serif;
+  background: #d5d5d5;
+  color: white;
+}
+.container-2 hr {
+  border: none;
+  color: #7b1f27;
+  background-color: #7b1f27;
+  height: 1px;
 }
 .background-iamge {
   display: inline-block;
@@ -15,7 +23,7 @@
   z-index: -1;
 }
 .current-weather__state {
-  background: gray;
+  
 }
 .current-weather__state_image {
   width: 142px;
@@ -35,9 +43,11 @@
   font-family: 'Dosis', sans-serif;
   font-weight: 200;
   font-size: 101px;
+  color: #7b1f27;
 }
 .current-weather__next-days {
   font-family: 'Dosis', sans-serif;
   font-weight: 400;
   font-size: 16px;
+  color: #7b1f27;
 }
