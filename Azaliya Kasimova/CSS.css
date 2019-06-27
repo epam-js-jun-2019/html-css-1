@@ -1,0 +1,104 @@
+#all {
+  margin: 0px 0px 0px 0px;
+  padding: 95px 0px 0px 95px;
+  width: 705px;
+  height: 505px;
+  background-image: url(img/background.jpg);
+}
+#cub1 {
+  width: 203px;
+  height: 205px;
+  background-color: rgb(6, 179, 219);
+  float: left;
+  text-align: center;
+}
+#cub1 img {
+  width: 103px;
+  height: 88px;
+  padding-top: 45px
+}
+#cub2 {
+  width: 204px;
+  height: 205px;
+  background-color: rgb(78, 212, 134);
+  float: left;
+  text-align: center;
+}
+#cub2 img {
+  width: 95px;
+  height: 89px;
+  padding-top: 45px
+}
+#cub3 {
+  width: 203px;
+  height: 205px;
+  background-color: rgb(97, 57, 246);
+  float: left;
+  text-align: center;
+}
+#cub3 img {
+  width: 98px;
+  height: 96px;
+  padding-top: 45px
+}
+#cub4 {
+  width: 203px;
+  height: 205px;
+  background-color: rgb(227, 182, 61);
+  float: left;
+  text-align: center;
+}
+#cub4 img {
+  width: 98px;
+  height: 97px;
+  padding-top: 45px
+}
+#cub5 {
+  width: 204px;
+  height: 205px;
+  background-color: rgb(220, 61, 102);
+  float: left;
+  text-align: center;
+}
+#cub5 img {
+  width: 73px;
+  height: 74px;
+  padding-top: 17px
+}
+#cub6 {
+  width: 203px;
+  height: 205px;
+  background-color: rgb(189, 84, 205);
+  float: left;
+  text-align: center;
+}
+#cub5 div {
+  width: 204px;
+  height: 100px;
+  margin-top: 10px;
+  background-color: rgb(189, 53, 89);
+}
+#cub6 img {
+  width: 100px;
+  height: 75px;
+  padding-top: 45px
+}
+#cub1 p, #cub2 p, #cub3 p, #cub4 p, #cub5 p, #cub6 p {
+  color: white;
+  text-transform: uppercase;
+
+}
+p {
+  display: inline;
+}
+#week1, #week2, #week3, #week4 {
+  margin-left: 10px;
+  font-size: 14px;
+}
+.class, .degree {
+  float: left;
+}
+.degree {
+  margin-left: 10px;
+}
+
