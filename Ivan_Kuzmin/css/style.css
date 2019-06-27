@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    font-weight: 900;
+    font-family: "Avenir Next", Arial, sans-serif;
+    color: white;
+}
+
+body {
+    background: url("../images/back_main.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.back-cities {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: url("../images/back_black.png") no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.back-cities .city-block {
+    height: 205px;
+    width: 205px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: -2px;
+}
+
+.city-block_container {
+    padding: 40px 8px;
+    text-align: center;
+}
+
+.city-block_container img {
+    margin-bottom: 15px;
+}
+
+.week .week_block-img, .week .week_weather-info {
+    text-align: center;
+}
+
+.week .week_block-img img {
+    width: 60px;
+    padding-top: 20px;
+}
+
+.city-block_container img {
+    width: 90px;
+    height: 70px;
+}
+
+.week_weather-info {
+    background: url("../images/week_back2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.week_block-img, .week_weather-info {
+    height: 50%;
+}
+
+
+.week_weather-info div {
+    padding: 10px 5px;
+}
+
+.week_weather-info div p {
+    margin-bottom: 5px;
+}
+
+.week_weather-info div img {
+    width: 24px;
+    height: 18px;
+}
+
+.chicago {
+    background: url("../images/chicago_back.png");
+}
+
+.seattle {
+    background: url("../images/seattle_back.png");
+}
+
+.brooklyn {
+    background: url("../images/brooklyn_back.png");
+}
+
+.portland {
+    background: url("../images/portland_back.png");
+}
+
+.week {
+    background: url("../images/week_back1.png");
+}
+
+.san-jose {
+    background: url("../images/san_jose_back.png");
+}
