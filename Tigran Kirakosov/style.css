@@ -12,6 +12,7 @@
   font-family: 'Dosis', sans-serif;
   font-weight: normal;
   background-image: url("/assets/images/bg/Tokyo-bg.png");
+  border-radius: 10px;
   color: white;
   cursor: default;
 }
@@ -88,7 +89,6 @@
 .current-weather__graph_image {
   position: relative;
   bottom: 15px;
-  left: 5px;
 }
 .current-weather__next-days {
   display: flex;
