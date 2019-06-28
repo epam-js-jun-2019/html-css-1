@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'AvenirNext-Bold';
+  src: local('AvenirNext-Bold'),
+    url('https://nomail.com.ua/files/woff/88da9ccecc9a384876ccf7c53eccec2d.woff')
+      format('woff');
+}
+
+body {
+  font-family: 'AvenirNext-Bold';
+}
+
+.widget {
+  height: 600px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  flex: 1 1 233px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#card__info.bottom__card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.day__weather {
+  flex: 1;
+}
