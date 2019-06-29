@@ -1,6 +1,6 @@
 body {
   background-color: #515c65;
-  background-image: linear-gradient(to right, #515c65 , #646d74,#515c65 );
+  background-image: linear-gradient(to right, #33383c , #77828a,#33383c );
 }
 .grid {
   height: 95vh;
@@ -98,6 +98,6 @@ display:flex;
   align-items:center;
 }
 .pagination{
-  margin-left: 120px;
-  margin-top: 44px
+  margin-left: 125px;
+  margin-top: 43px;
 }
