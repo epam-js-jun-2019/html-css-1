@@ -35,13 +35,17 @@ display:flex;
   padding: 12px 0px 25px 23px;
 }
 .infoText{
-  padding: 11px 20px 14px 14px;
+  padding: 11px 0px 14px 14px;
   letter-spacing: 1px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Times New Roman", Times, serif;
   color :#a2a9ad;
 }
 .infoTextTop{
   font-size:22px;
+  font-weight: lighter;
+}
+.infoTextBottom{
+  font-size: 14px;
 }
 .dayInfo{
   font-family: 'Open Sans', sans-serif;
@@ -52,15 +56,43 @@ display:flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding-left:19px;
+  padding-right: 13px;
+  padding-top:2px;
+  height:67px;
   /* height:25px; */
   color : white;
   background-color: #54bae6;
 }
+.topDayText{
+  font-size:14px;
+  margin-top:3px;
+  margin-bottom: 5px;
+}
+.bottomDayText{
+  font-size: 18px;
+}
 .stats{
   background-color: #2e3335;
-  margin-top : 20px;
+  margin-top : 11px;
+  color : white;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size : 12px;
+  font-weight: 600;
   height: 100%;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  padding : 0px 45px 0px 45px;
+}
+.stats img{
+  margin-right: 10px;
+}
+.firstPage{
+  display : flex;
+  margin-top : 44px;
+  justify-content: space-between
+}
+.wind ,.sun , .humidity{
+  display:flex;
+  align-items:center;
 }
