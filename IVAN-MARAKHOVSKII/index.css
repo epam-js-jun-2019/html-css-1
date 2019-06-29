@@ -1,5 +1,6 @@
 body {
   background-color: #515c65;
+  background-image: linear-gradient(to right, #515c65 , #646d74,#515c65 );
 }
 .grid {
   height: 95vh;
