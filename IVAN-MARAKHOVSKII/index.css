@@ -1,62 +1,66 @@
 body {
-  padding: 0px;
-  background-color: #636f78;
-  margin: 0px;
+  background-color: #515c65;
 }
 .grid {
-  padding: 0.3rem;
+  height: 95vh;
   display: grid;
-  grid-template: 27% 1fr 27% / 37% 1fr 37%;
-  
+  grid-template: 24.2% 1fr 24.1% / 40.15% 1fr 39.6%;
 }
-.widget-grid {
+.wheatherWidget {
+  display: flex;
+  flex-direction: column;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  background-color: #f1f8f9;
   border-radius: 10px;
-  color: #636f78;
-  display: grid;
-  grid-template: 10% 4fr 4fr 3fr 1fr / 100%;
-  background-color: white;
-  grid-area: 2/2/3/3;
 }
-.refresh {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 0.2;
-  margin-right: 10px;
+.refreshIcon {
+  width: 100%;
+  height: 20px;
+  margin-top: 16px;
+
+  margin-left: 351px;
 }
-.wheather {
-  display: flex;
-  justify-content: center;
-}
-.mainInfo {
-  padding: 1rem;
-  padding-right: 0;
-  font-size: 1.6rem;
+.wheatherImage {
+  
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: nowrap;
+  margin : 32px 0px 53px 126px;
 }
-.temp {
-  font-size: 3rem;
+.infoBlock{
+display:flex;
+
 }
-.day {
-  display: flex;
+.tempIcon{
+  padding: 12px 0px 25px 23px;
+}
+.infoText{
+  padding: 11px 20px 14px 14px;
+  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
+  color :#a2a9ad;
+}
+.infoTextTop{
+  font-size:22px;
+}
+.dayInfo{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-left: auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  /* height:25px; */
+  color : white;
   background-color: #54bae6;
-  font-size: 1.1rem;
-  padding: 5px 10px 5px 10px;
-  align-items: center;
-  color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.stats {
-  display: flex;
-  justify-content: center;
+.stats{
   background-color: #2e3335;
-  align-items: center;
-}
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #2e3335;
+  margin-top : 20px;
+  height: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }

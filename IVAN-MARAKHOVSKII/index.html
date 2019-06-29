@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css" />
     <link rel="stylesheet" href="/IVAN-MARAKHOVSKII/index.css" />
     <title>New Jersey</title>
     <link
@@ -13,29 +14,27 @@
   </head>
   <body>
     <div class="grid">
-      <div class="widget-grid">
-        <div class="refresh">
+      <div class="wheatherWidget">
+        <div class="refreshIcon">
           <img src="refresh.png" alt="" />
         </div>
-        <div class="wheather">
+        <div class="wheatherImage">
           <img src="cloud_icon.png" />
         </div>
-        <div class="mainInfo">
-          <span class="temp">79&deg;</span>
-          <div class="town">
-            <span>Cloudy Skies</span>
-            <span>Sicklervilley, <br />New Jersey</span>
+        <div class="infoBlock">
+          <img src="tempIcon.png" class="tempIcon" />
+          <div class="infoText">
+            <span class="infoTextTop">Cloudy Skies</span><br /><span
+              class="infoTextBottom"
+              >Sicklerville, New Jersey</span
+            >
           </div>
-          <div class="day">
-            <span>May <br />
-              21</span>
+          <div class="dayInfo">
+            <span class="topDayText">MAY</span>
+            <span class="bottomDayText">21</span>
           </div>
         </div>
         <div class="stats">
-          <img src="stats.png" />
-        </div>
-        <div class="nav">
-          <img src="scroll.png" />
         </div>
       </div>
     </div>
