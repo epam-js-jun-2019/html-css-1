@@ -1,6 +1,6 @@
 body {
   background-color: #515c65;
-  background-image: linear-gradient(to right, #33383c , #77828a,#33383c );
+  background-image: linear-gradient(to right, #33383c, #77828a, #33383c);
 }
 .grid {
   height: 95vh;
@@ -23,81 +23,86 @@ body {
   margin-left: 351px;
 }
 .wheatherImage {
-  
   display: flex;
   align-items: center;
-  margin : 32px 0px 53px 126px;
+  margin: 32px 0px 53px 126px;
 }
-.infoBlock{
-display:flex;
-
+.infoBlock {
+  display: flex;
 }
-.tempIcon{
+.tempIcon {
   padding: 12px 0px 25px 23px;
 }
-.infoText{
+.infoText {
   padding: 11px 0px 14px 14px;
   letter-spacing: 1px;
   font-family: "Times New Roman", Times, serif;
-  color :#a2a9ad;
+  color: #a2a9ad;
 }
-.infoTextTop{
-  font-size:22px;
-  font-weight: lighter;
+.infoTextTop {
+  font-size: 22px;
+  font-weight: 200;
 }
-.infoTextBottom{
+.infoTextBottom {
+  font-weight: 900;
   font-size: 14px;
 }
-.dayInfo{
-  font-family: 'Open Sans', sans-serif;
+.dayInfo {
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
   margin-left: auto;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-left:19px;
+  padding-left: 19px;
   padding-right: 13px;
-  padding-top:2px;
-  height:67px;
+  padding-top: 2px;
+  height: 67px;
   /* height:25px; */
-  color : white;
+  color: white;
   background-color: #54bae6;
 }
-.topDayText{
-  font-size:14px;
-  margin-top:3px;
+.topDayText {
+  font-size: 14px;
+  margin-top: 3px;
   margin-bottom: 5px;
 }
-.bottomDayText{
+.bottomDayText {
   font-size: 18px;
 }
-.stats{
+.stats {
   background-color: #2e3335;
-  margin-top : 11px;
-  color : white;
-  font-family: 'Rubik Mono One', sans-serif;
-  font-size : 12px;
-  font-weight: 600;
+  margin-top: 11px;
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
   height: 100%;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  padding : 0px 45px 0px 45px;
+  padding: 0px 45px 0px 45px;
 }
-.stats img{
-  margin-right: 10px;
+.stats img {
+  margin-right: 16px;
 }
-.firstPage{
-  display : flex;
-  margin-top : 44px;
-  justify-content: space-between
+.firstPage {
+  display: flex;
+  margin-top: 44px;
+  justify-content: space-between;
 }
-.wind ,.sun , .humidity{
-  display:flex;
-  align-items:center;
+.wind,
+.sun,
+.humidity {
+  display: flex;
+  mrgin-right : 10px;
+  align-items: center;
 }
-.pagination{
-  margin-left: 125px;
-  margin-top: 43px;
+.pagination {
+  margin-left: 123px;
+  margin-top: 40px;
+}
+.pagination img {
+  margin-right: 3px;
 }
