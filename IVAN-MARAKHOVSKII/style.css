@@ -44,7 +44,7 @@ body {
   font-weight: 200;
 }
 .infoTextBottom {
-  font-weight: 900;
+  font-weight: 00;
   font-size: 14px;
 }
 .dayInfo {
@@ -96,7 +96,7 @@ body {
 .sun,
 .humidity {
   display: flex;
-  mrgin-right : 10px;
+  margin-right : 10px;
   align-items: center;
 }
 .pagination {
