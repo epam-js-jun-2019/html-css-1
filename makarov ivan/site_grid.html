@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tokyo</title>
+        <meta charset="utf-8">
+        </head>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Dosis:200,300,700&display=swap&subset=latin-ext');
+            * {
+                font-family: 'Dosis', sans-serif;
+                text-align: center; vertical-align: middle;
+            }
+            body {
+                background: url(pics/layer3.png) no-repeat;
+                background-size: 100%;
+            }
+            .picture_of_sun {
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 1;
+                grid-row-end: 3;
+                background: url(pics/big_sun.png) no-repeat center;
+            }
+            .word_sunny {
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 3;
+                grid-row-end: 4;
+                justify-content: center;
+            }
+            .words {
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 4;
+                grid-row-end: 5;
+            }
+            .degrees {
+                grid-column-start: 3;
+                grid-column-end: 8;
+                grid-row-start: 1;
+                grid-row-end: 2;
+                background-color: aqua;
+            }
+            .graph {
+                grid-column-start: 3;
+                grid-column-end: 8;
+                grid-row-start: 2;
+                grid-row-end: 3;
+                background: url(pics/graph.png);
+            }
+            .picture1 {
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 3;
+                grid-row-end: 4;
+                background: url(pics/suncopy2.png) no-repeat center;
+            }
+            .picture2 {
+                grid-column-start: 5;
+                grid-column-end: 6;
+                grid-row-start: 3;
+                grid-row-end: 4;
+                background: url(pics/ellipse6.png) no-repeat center;
+            }
+            .picture3 {
+                grid-column-start: 7;
+                grid-column-end: 8;
+                grid-row-start: 3;
+                grid-row-end: 4;
+                background: url(pics/ellipse6.png) no-repeat center;
+            }
+            .day1 {
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 4;
+                grid-row-end: 5;
+            }
+            .day2 {
+                grid-column-start: 5;
+                grid-column-end: 6;
+                grid-row-start: 4;
+                grid-row-end: 5;
+            }
+            .day3 {
+                grid-column-start: 7;
+                grid-column-end: 8;
+                grid-row-start: 4;
+                grid-row-end: 5;
+            }
+            .container {
+                width: 581px;
+                height: 438px;
+                display: grid;
+                grid-template-columns: 290px 40px 50px 29px 50px 29px 50px 43px;
+                grid-template-rows: 144px 96px 94px 104px;
+                background: url(pics/layer6.png) no-repeat center;
+                }
+        </style>
+    <body>
+        <div class=container>
+            <div class=picture_of_sun><p></p></div>
+            <div class="word_sunny"><span>Sunny</span></div>
+            <div class="words">Tokyo-Wednsday</div>
+            <div class="degrees">28°C</div>
+            <div class="graph"></div>
+            <div class="picture1"></div>
+            <div class="picture2"></div>
+            <div class="picture3"></div>
+            <div class="day1">Thu<br/><hr/ color="#723137">28°C<br/>18°C</div>
+            <div class="day2">Fri<br/><hr/ color="#723137">22°C<br/>20°C</div>
+            <div class="day3">Sat<br/><hr/ color="#723137">30°C<br/>27°C</div>
+        </div>
+    </body>
+</html>
