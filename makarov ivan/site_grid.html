@@ -3,16 +3,22 @@
     <head>
         <title>Tokyo</title>
         <meta charset="utf-8">
-        </head>
         <style>
             @import url('https://fonts.googleapis.com/css?family=Dosis:200,300,700&display=swap&subset=latin-ext');
             * {
                 font-family: 'Dosis', sans-serif;
-                text-align: center; vertical-align: middle;
+                text-align: center;
             }
             body {
                 background: url(pics/layer3.png) no-repeat;
                 background-size: 100%;
+            }
+            *.white_text {
+                color: white;
+
+            }
+            *.red_text {
+                color: #661f25;
             }
             .picture_of_sun {
                 grid-column-start: 1;
@@ -26,27 +32,33 @@
                 grid-column-end: 2;
                 grid-row-start: 3;
                 grid-row-end: 4;
-                justify-content: center;
+                font-size: 36px;
+                line-height: 94px; /* костыль для вертикального выравнивания текста, равен высоте занимаемой ячейки*/
             }
             .words {
                 grid-column-start: 1;
                 grid-column-end: 2;
                 grid-row-start: 4;
                 grid-row-end: 5;
+                font-size: 22px;
+                line-height: 104px; 
             }
             .degrees {
                 grid-column-start: 3;
                 grid-column-end: 8;
                 grid-row-start: 1;
                 grid-row-end: 2;
-                background-color: aqua;
+                font-size: 76px;
+                line-height: 144px;
             }
             .graph {
                 grid-column-start: 3;
                 grid-column-end: 8;
                 grid-row-start: 2;
                 grid-row-end: 3;
-                background: url(pics/graph.png);
+                background: url(pics/graph.png) no-repeat;
+                background-position-y: center;
+                background-size: auto 96px;
             }
             .picture1 {
                 grid-column-start: 3;
@@ -90,18 +102,20 @@
             .container {
                 width: 581px;
                 height: 438px;
+                margin: auto;   /*главный див будет по центру*/
                 display: grid;
                 grid-template-columns: 290px 40px 50px 29px 50px 29px 50px 43px;
                 grid-template-rows: 144px 96px 94px 104px;
                 background: url(pics/layer6.png) no-repeat center;
-                }
+            }
         </style>
+    </head>
     <body>
         <div class=container>
             <div class=picture_of_sun><p></p></div>
-            <div class="word_sunny"><span>Sunny</span></div>
-            <div class="words">Tokyo-Wednsday</div>
-            <div class="degrees">28°C</div>
+            <div class="word_sunny white_text">Sunny</div>
+            <div class="words white_text">Tokyo-Wednsday, Juli 31</div>
+            <div class="degrees red_text">28 °C</div>
             <div class="graph"></div>
             <div class="picture1"></div>
             <div class="picture2"></div>
