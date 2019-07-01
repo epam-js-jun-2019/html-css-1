@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Avenir Next Bold';
+  src: url('fonts/AvenirNext-Bold.ttf') format('truetype');
+}
+
 section {
   margin: 0px;
   padding: 95px;
@@ -81,8 +86,7 @@ section {
 p {
   color: white;
   display: inline;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Avenir Next Bold', 'Lato', sans-serif;
   text-transform: uppercase;
   font-size: 16px;
 }
