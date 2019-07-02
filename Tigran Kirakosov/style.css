@@ -71,6 +71,7 @@ ul, li {
   align-items: center;
   justify-content: space-around;
   height: 100%;
+  max-width: 100%;
   width: 290px;
   padding-bottom: 5px;
   background: white;
@@ -101,7 +102,7 @@ ul, li {
 .day {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 .current-weather__day {
