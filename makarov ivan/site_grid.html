@@ -23,39 +23,52 @@
             .picture_of_sun {
                 grid-column-start: 1;
                 grid-column-end: 2;
+                -ms-grid-column: 1;
                 grid-row-start: 1;
                 grid-row-end: 3;
+                -ms-grid-row: 1;
+                -ms-grid-row-span: 2;
                 background: url(pics/big_sun.png) no-repeat center;
             }
             .word_sunny {
                 grid-column-start: 1;
                 grid-column-end: 2;
+                -ms-grid-column: 1;
                 grid-row-start: 3;
                 grid-row-end: 4;
+                -ms-grid-row: 3;
                 font-size: 36px;
                 line-height: 94px; /* костыль для вертикального выравнивания текста, равен высоте занимаемой ячейки*/
             }
             .words {
                 grid-column-start: 1;
                 grid-column-end: 2;
+                -ms-grid-column: 1;
                 grid-row-start: 4;
                 grid-row-end: 5;
+                -ms-grid-row: 4;
                 font-size: 22px;
                 line-height: 104px; 
             }
             .degrees {
                 grid-column-start: 3;
                 grid-column-end: 8;
+                -ms-grid-column: 3;
+                -ms-grid-column-span: 5;
                 grid-row-start: 1;
                 grid-row-end: 2;
+                -ms-grid-row: 1;
                 font-size: 76px;
                 line-height: 144px;
             }
             .graph {
                 grid-column-start: 3;
                 grid-column-end: 8;
+                -ms-grid-column: 3;
+                -ms-grid-column-span: 5;
                 grid-row-start: 2;
                 grid-row-end: 3;
+                -ms-grid-row: 2;
                 background: url(pics/graph.png) no-repeat;
                 background-position-y: center;
                 background-size: auto 96px;
@@ -63,51 +76,66 @@
             .picture1 {
                 grid-column-start: 3;
                 grid-column-end: 4;
+                -ms-grid-column: 3;
                 grid-row-start: 3;
                 grid-row-end: 4;
+                -ms-grid-row: 3;
                 background: url(pics/suncopy2.png) no-repeat center;
             }
             .picture2 {
                 grid-column-start: 5;
                 grid-column-end: 6;
+                -ms-grid-column: 5;
                 grid-row-start: 3;
                 grid-row-end: 4;
+                -ms-grid-row: 3;
                 background: url(pics/ellipse6.png) no-repeat center;
             }
             .picture3 {
                 grid-column-start: 7;
                 grid-column-end: 8;
+                -ms-grid-column: 7;
                 grid-row-start: 3;
                 grid-row-end: 4;
+                -ms-grid-row: 3;
                 background: url(pics/ellipse6.png) no-repeat center;
             }
             .day1 {
                 grid-column-start: 3;
                 grid-column-end: 4;
+                -ms-grid-column: 3;
                 grid-row-start: 4;
                 grid-row-end: 5;
+                -ms-grid-row: 4;
             }
             .day2 {
                 grid-column-start: 5;
                 grid-column-end: 6;
+                -ms-grid-column: 5;
                 grid-row-start: 4;
                 grid-row-end: 5;
+                -ms-grid-row: 4;
             }
             .day3 {
                 grid-column-start: 7;
                 grid-column-end: 8;
+                -ms-grid-column: 7;
                 grid-row-start: 4;
                 grid-row-end: 5;
+                -ms-grid-row: 4;
             }
             .container {
                 width: 581px;
                 height: 438px;
                 margin: auto;   /*главный див будет по центру*/
                 display: grid;
+                display: -ms-grid; /*костыль для IE*/
                 grid-template-columns: 290px 40px 50px 29px 50px 29px 50px 43px;
                 grid-template-rows: 144px 96px 94px 104px;
+                -ms-grid-columns: 290px 40px 50px 29px 50px 29px 50px 43px; /*еще для IE */
+                -ms-grid-rows: 144px 96px 94px 104px; /*он же*/
                 background: url(pics/layer6.png) no-repeat center;
-            }
+                }
         </style>
     </head>
     <body>
