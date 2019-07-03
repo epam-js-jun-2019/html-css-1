@@ -1,7 +1,7 @@
 <svg 
  xmlns="http://www.w3.org/2000/svg"
  xmlns:xlink="http://www.w3.org/1999/xlink"
- width="NaN%" height="NaN%">
+ width="81px" height="75px">
 <defs>
 <filter filterUnits="userSpaceOnUse" id="Filter_0" x="0px" y="0px" width="81px" height="75px"  >
     <feOffset in="SourceAlpha" dx="0" dy="1" />
