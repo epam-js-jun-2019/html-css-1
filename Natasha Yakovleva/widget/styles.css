@@ -1,0 +1,104 @@
+body{
+	background-image: url('bg.png');
+	background-size: cover;
+}
+
+.main{
+	padding-left: 50px;
+	padding-top: 60px;
+}
+
+.date{
+	margin-top: -365px;
+	margin-left: 414px;
+	display: flex;
+
+}
+
+.crt{
+	margin-top: -35px;
+	margin-left: 530px;
+	display: flex;
+	flex-direction: column;
+}
+
+.degrees{
+	display: inline-flex;
+}
+
+.degree{
+	padding-left: 5px;
+}
+
+.location{
+	padding-top: 15px;
+	padding-left: -1px;
+}
+
+.wind{
+	padding-top: 20px;
+	display: inline-flex;
+}
+
+.wind_picture{
+	padding: 3px;
+}
+
+.weather{
+	padding-left: 40px;
+	padding-right: 50px;
+	margin-top: 80px;
+	display: inline-flex;
+	width: 750px;
+	justify-content: space-around;
+
+}
+
+.pointer{
+	align-self: center;
+	padding-top: 5px;
+}
+
+.back{
+	padding-left: 60px;
+}
+
+.next{
+	padding-right: 100px;
+}
+
+.divider{
+	padding-left: -15px;
+	padding-top: 10px;
+	align-self: center;
+}
+
+.days{
+	margin-top: 0px;
+	margin-left: 10px;
+
+	/*align-items: top;*/
+	display: flex;
+	flex-direction: row;
+}
+
+.day{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.in{
+	padding-top: 5px;
+	padding-left: 30px;
+	padding-right: 20px;
+}
+
+.tuesday{
+	padding-top: 15px;
+}
+
