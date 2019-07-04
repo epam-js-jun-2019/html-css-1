@@ -2,100 +2,108 @@ body{
     margin: 0;
 }
 
-#widget{
+.weather-widget{
+    width: 612px;
+    height: 408px;
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
-    width: 612px;
-    height: 408px;
     font-family: 'Lato', sans-serif;
     color: #FFFFFF;
-    margin: 0;
+    
 }
 
-.elem{
+.weather-widget__city-card{
+    width: 204px;
+    height: 204px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 204px;
-    height: 204px;
+}
+
+.city-card-chicago{
     background-color: #00C0E2;
 }
 
-#a{
-    background-color: #00C0E2;
-}
-
-
-#b{
+.city-card-seattle{
     background-color: #5AD998;
 }
 
-#c{
+.city-card-brooklyn{
     background-color: #7558F8;
 }
 
-#d{
+.city-card-portland{
     background-color: #E9C14D;
 }
 
-#e{
+.city-card-schedule{
     justify-content: space-between;
     background-color: #E55679;
 }
 
-#f{
+.city-card-sanjose{
     background-color: #CB70D6;
 }
 
-#g{
-    height: 102px;
+.city-card-schedule__img{
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.city-card-schedule__schedule-table{
+    height: 99px;
     width: 204px;
     background-color: #CB4C6C;
+    box-shadow: inset 0 0 30px rgba(0,0,0,0.15);
 }
 
-#i span{
-    font-size: 11px;
-}
-
-#i{
-    width: 163px;
-    height: 70px;
-    margin-left: 20px;
-    margin-top: 15px;
+.city-card-schedule__week-days-container{
+    width: 160px;
+    height: 67px;
+    margin-left: 23px;
+    margin-top: 19px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
-#e img{
-    margin-top: 20px;
-}
-
-#h img{
-    margin-top: 0;
-}
-
-.row{
-    max-height: 25px;
+.city-card-schedule__days-list{
     display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 155px;
+    height: 68px;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.days-list__list-text{
+    font-size: 9pt;
+}
+ 
+.days-list__list-elem{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    text-align: center;
 }
 
-.row img{
-    max-height: 25px;
-    max-width: 25px;
+.days-list__list-img{
+    margin: 0;
 }
 
-#a img, #b img, #c img, #d img{
-    margin-top: 10px;
-    margin-bottom: 20px;
+.city-card-chicago__img, .city-card-sanjose__img, .city-card-portland__img, .city-card-brooklyn__img, .city-card-seattle__img{
+    padding-top: 2px;
+    padding-bottom: 24px;
 }
 
-#f img{
-    margin-top: 25px;
-    margin-bottom: 25px;
+.city-card-sanjose__img{
+    padding-top: 20px;
+    padding-bottom: 32px;
 }
