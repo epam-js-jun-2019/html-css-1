@@ -1,4 +1,7 @@
 body {
+  width: 100%;
+  height: 100%;
+
   font-size: 15pt;
   font-family: "Avenir Next", monospace;
   font-weight: 600;
@@ -11,7 +14,7 @@ body {
   background-position: center center;
 }
 
-.flex-container {
+.widget {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -19,12 +22,13 @@ body {
   right: 0;
   top: 0;
   bottom: 0;
+  
   display: flex;
   flex-flow: row wrap;
   align-content: center;
-  align-items: center;
-  justify-content: center; 
-  overflow: auto;
+  justify-content: center;
+
+  overflow: hidden;
 }
 
 .row {
@@ -33,7 +37,7 @@ body {
   max-width: 830px;
 }
 
-.flex-item {
+.weather {
   display: flex;
   align-content: center;
   align-items: center;
@@ -44,31 +48,31 @@ body {
   height: 274px;
 }
 
-.cont-1 {
+.weather-skyblue {
   background-color: #06b3db;
 }
 
-.cont-2 {
+.weather-green {
   background-color: #4ed486;
 }
 
-.cont-3 {
+.weather-blue {
   background-color: #6139f6;
 }
 
-.cont-4 {
+.weather-orange {
   background-color: #e3b63d;
 }
 
-.cont-5 {
+.weather-pink {
   background-color: #dc3d66;
 }
 
-.cont-6 {
+.weather-purple {
   background-color: #db51e2;
 }
 
-.image-with-caption {
+.weather__block_visible {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -82,22 +86,22 @@ body {
   padding-bottom: 15%;
 }
 
-.large-weather-image {
+.weather__image_large {
   width: 110px;
 }
 
-.caption {
+.weather__city {
   margin-bottom: 10px;
 }
 
 /* Invisible elements before hover */
 
-.hover-block {
+.weather__block_invisible {
   display: none;
   position: relative;
 }
 
-.hover-elements {
+.weather__period-info {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -109,7 +113,7 @@ body {
   height: 100%;
 }
 
-.transparency-element {
+.weather__background_transparency {
   position: absolute;
   box-sizing: border-box;
 
@@ -122,7 +126,7 @@ body {
   z-index: 1;
 }
 
-.hover-weather {
+.weather__day-info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -138,24 +142,24 @@ body {
   z-index: 2;
 }
 
-.small-weather-image {
+.weather__image_small {
   width: 30px;
 }
 
-.day-of-week,
-.temperature {
+.weather__day,
+.weather__temperature {
   font-size: 12pt;
 }
 
 /* Styles for hover */
 
-.flex-item:hover {
+.weather:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.flex-item:hover .image-with-caption {
+.weather:hover .weather__block_visible {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -165,17 +169,17 @@ body {
   padding-bottom: unset;
 }
 
-.flex-item:hover .large-weather-image {
+.weather:hover .weather__image_large {
   display: flex;
   
   width: 85px;
 }
 
-.flex-item:hover .caption {
+.weather:hover .weather__city {
   display: none;
 }
 
-.flex-item:hover .hover-block {
+.weather:hover .weather__block_invisible {
   display: flex;
 
   box-sizing: border-box;
@@ -183,5 +187,3 @@ body {
   width: 100%;
   height: 90%;
 }
-
-
