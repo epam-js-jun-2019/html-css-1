@@ -55,8 +55,8 @@ body{
 }
 
 .city-card-schedule__schedule-table{
-    height: 99px;
     width: 204px;
+    height: 99px;
     background-color: #CB4C6C;
     box-shadow: inset 0 0 30px rgba(0,0,0,0.15);
 }
@@ -72,14 +72,14 @@ body{
 }
 
 .city-card-schedule__days-list{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
     width: 155px;
     height: 68px;
     padding-inline-start: 0;
     margin-block-start: 0;
     margin-block-end: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
 }
 
 .days-list__list-text{
