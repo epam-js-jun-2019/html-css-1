@@ -1,37 +1,37 @@
 @font-face {
     font-family: 'Proxima Nova';
     src: local('Proxima Nova'),
-        url(fonts/ProximaNova-Regular.eot) format('eot'),
-        url(fonts/ProximaNova-Regular.ttf) format('ttf'),
-        url(fonts/ProximaNova-Regular.woff) format('woff');
+        url(../fonts/ProximaNova-Regular.eot) format('eot'),
+        url(../fonts/ProximaNova-Regular.ttf) format('ttf'),
+        url(../fonts/ProximaNova-Regular.woff) format('woff');
 }
 @font-face {
     font-family: 'Proxima Nova Light';
     src: local('Proxima Nova Light'),
-        url(fonts/ProximaNova-Light.eot) format('eot'),
-        url(fonts/ProximaNova-Light.ttf) format('ttf'),
-        url(fonts/ProximaNova-Light.woff) format('woff');
+        url(../fonts/ProximaNova-Light.eot) format('eot'),
+        url(../fonts/ProximaNova-Light.ttf) format('ttf'),
+        url(../fonts/ProximaNova-Light.woff) format('woff');
 }
 @font-face {
     font-family: 'Source Sans Pro Light';
     src: local('Source Sans Pro Light'),
-        url(fonts/SourceSansPro-Light.eot) format('eot'),
-        url(fonts/SourceSansPro-Light.ttf) format('ttf'),
-        url(fonts/SourceSansPro-Light.woff) format('woff');
+        url(../fonts/SourceSansPro-Light.eot) format('eot'),
+        url(../fonts/SourceSansPro-Light.ttf) format('ttf'),
+        url(../fonts/SourceSansPro-Light.woff) format('woff');
 }
 @font-face {
     font-family: 'Source Sans Pro Semibold';
     src: local('Source Sans Pro Semibold'),
-        url(fonts/SourceSansPro-SemiBold.eot) format('eot'),
-        url(fonts/SourceSansPro-SemiBold.ttf) format('ttf'),
-        url(fonts/SourceSansPro-SemiBold.woff) format('woff');
+        url(../fonts/SourceSansPro-SemiBold.eot) format('eot'),
+        url(../fonts/SourceSansPro-SemiBold.ttf) format('ttf'),
+        url(../fonts/SourceSansPro-SemiBold.woff) format('woff');
 }
 @font-face {
     font-family: 'Open Sans';
     src: local('Open Sans'),
-        url(fonts/OpenSans-Regular.eot) format('eot'),
-        url(fonts/OpenSans-Regular.ttf) format('ttf'),
-        url(fonts/OpenSans-Regular.woff) format('woff');
+        url(../fonts/OpenSans-Regular.eot) format('eot'),
+        url(../fonts/OpenSans-Regular.ttf) format('ttf'),
+        url(../fonts/OpenSans-Regular.woff) format('woff');
 }
 
 html {
@@ -71,7 +71,7 @@ body {
     position: absolute;
     top: 17px;
     right: 19px;
-    background: url(img/sprite.png);
+    background: url(../img/sprite.png);
     width: 21px;
     height: 19px;
     border: none;
@@ -144,7 +144,7 @@ body {
     content: '';
     width: 28px;
     height: 17px;
-    background: url(img/sprite.png);
+    background: url(../img/sprite.png);
     background-position: 88px 0;
     margin-right: 20%;
 }
@@ -152,7 +152,7 @@ body {
     content: '';
     width: 16px;
     height: 20px;
-    background: url(img/sprite.png);
+    background: url(../img/sprite.png);
     background-position: 49px 0;
     margin-right: 20%;
 }
@@ -160,7 +160,7 @@ body {
     content: '';
     width: 22px;
     height: 22px;
-    background: url(img/sprite.png);
+    background: url(../img/sprite.png);
     background-position: 23px 0;
     margin-right: 20%;
 }
