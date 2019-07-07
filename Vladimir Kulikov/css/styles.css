@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: local("Proxima Nova"), url(../fonts/ProximaNova-Regular.eot) format("eot"), url(../fonts/ProximaNova-Regular.ttf) format("ttf"), url(../fonts/ProximaNova-Regular.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Proxima Nova Light';
+  src: local("Proxima Nova Light"), url(../fonts/ProximaNova-Light.eot) format("eot"), url(../fonts/ProximaNova-Light.ttf) format("ttf"), url(../fonts/ProximaNova-Light.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Source Sans Pro Light';
+  src: local("Source Sans Pro Light"), url(../fonts/SourceSansPro-Light.eot) format("eot"), url(../fonts/SourceSansPro-Light.ttf) format("ttf"), url(../fonts/SourceSansPro-Light.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Source Sans Pro Semibold';
+  src: local("Source Sans Pro Semibold"), url(../fonts/SourceSansPro-SemiBold.eot) format("eot"), url(../fonts/SourceSansPro-SemiBold.ttf) format("ttf"), url(../fonts/SourceSansPro-SemiBold.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local("Open Sans"), url(../fonts/OpenSans-Regular.eot) format("eot"), url(../fonts/OpenSans-Regular.ttf) format("ttf"), url(../fonts/OpenSans-Regular.woff) format("woff"); }
+
+html {
+  height: 100%; }
+
+body {
+  background: #4e5860;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0; }
+
+.weatherWidget {
+  width: 389px;
+  border-radius: 10px;
+  box-shadow: 0 21px 19px rgba(0, 0, 0, 0.15); }
+
+.weatherWidget .top {
+  background: #f1f8f9;
+  border-radius: 10px 10px 0 0; }
+
+.weatherWidget .bottom {
+  color: #fff;
+  background: #2e3335;
+  border-radius: 0 0 10px 10px; }
+
+.weatherWidget .top .image {
+  position: relative;
+  padding: 68px 0 52px 0; }
+
+.weatherWidget .top .image img {
+  margin: 0 auto;
+  display: block; }
+
+.weatherWidget .top .image button {
+  position: absolute;
+  top: 17px;
+  right: 19px;
+  background: url(../img/sprite.png);
+  width: 21px;
+  height: 19px;
+  border: none;
+  cursor: pointer; }
+
+.weatherWidget .top .info {
+  color: #8d9396;
+  font-family: 'Proxima Nova Light';
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5%; }
+
+.weatherWidget .top .degrees {
+  width: 25%;
+  font-size: 57.6px;
+  padding-left: 20px;
+  position: relative; }
+
+.weatherWidget .top .degrees sup {
+  font-size: 22px;
+  position: absolute;
+  top: 8px;
+  right: 15px; }
+
+.weatherWidget .top .text {
+  display: flex;
+  flex-direction: column;
+  width: 53.5%; }
+
+.weatherWidget .top .text .sky {
+  font-family: 'Source Sans Pro Light';
+  font-size: 24px; }
+
+.weatherWidget .top .text .location {
+  font-family: 'Source Sans Pro Semibold'; }
+
+.weatherWidget .top .date {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  width: 16.5%;
+  background: #54bae6;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 13px 0; }
+
+.weatherWidget .top .date span {
+  font-size: 18px; }
+
+.weatherWidget .bottom .info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10% 10%; }
+
+.weatherWidget .bottom .info * {
+  font-family: 'Proxima Nova';
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: center; }
+
+.weatherWidget .bottom .info .wind::before {
+  content: '';
+  width: 28px;
+  height: 17px;
+  background: url(../img/sprite.png);
+  background-position: 88px 0;
+  margin-right: 20%; }
+
+.weatherWidget .bottom .info .humidity::before {
+  content: '';
+  width: 16px;
+  height: 20px;
+  background: url(../img/sprite.png);
+  background-position: 49px 0;
+  margin-right: 20%; }
+
+.weatherWidget .bottom .info .sky::before {
+  content: '';
+  width: 22px;
+  height: 22px;
+  background: url(../img/sprite.png);
+  background-position: 23px 0;
+  margin-right: 20%; }
+
+.weatherWidget .bottom .pagination {
+  display: flex;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  align-items: center;
+  justify-content: center; }
+
+.weatherWidget .bottom .pagination .dot {
+  width: 6px;
+  height: 6px;
+  border: 2px solid #565a5b;
+  border-radius: 50%;
+  margin: 0 1%; }
+
+.weatherWidget .bottom .pagination .dot.active {
+  background: #eee;
+  border-color: #eee;
+  border-width: 1px; }
+  .weatherWidget .bottom .pagination .dot.activesuka {
+    font-size: 10px; }
