@@ -1,0 +1,330 @@
+body {
+    background: url("images/Layer 3 copy@1X.png") no-repeat black;
+    background-size: cover;
+    width: 800px;
+    height: 600px;
+}
+
+.grid {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 438px auto;
+    grid-auto-columns: auto 581px auto;
+}
+
+.item {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background: white;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+}
+
+
+.v1 {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 100%;
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background: url("images/Layer 6@1X.png") no-repeat;
+    background-size: cover;
+    align-self: stretch;
+}
+
+
+.v2 {
+    display: grid;
+    justify-items:center;
+    grid-template-rows: 145px 97px 116px auto;
+    grid-template-columns: 100%;
+    grid-auto-rows: minmax(100px, auto);
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.v3 {
+    justify-self: center;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.v4 {
+    justify-self: center;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.v5 {
+    position: relative;
+    right:23px;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 25px;
+    justify-self: center;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.v6 {
+    position: relative;
+    right:23px;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 25px;
+    justify-self: center;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.img {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.i1 {
+    position: relative;
+    left: 9px;
+    top: 10px;
+}
+
+.i2 {
+    position: relative;
+    left: 30px;
+    bottom: 5px;
+}
+
+.i3 {
+    position: relative;
+    left: 51px;
+    top: 10px;
+}
+
+.i4 {
+    position: relative;
+    bottom: 30px;
+    right: 7px;
+}
+
+.sun {
+    position: relative;
+}
+
+.i5 {
+    position: relative;
+    bottom: 30px;
+    left: 7px;
+}
+
+.i6 {
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+}
+
+.i7 {
+    position: relative;
+    left: 30px;
+    top: 4px;
+}
+
+.i8 {
+    position: relative;
+    left: 50px;
+    bottom: 15px;
+}
+
+.i9 {
+    position: relative;
+    top: 13px;
+    right: 1px;
+}
+
+.i10 {
+    position: relative;
+    left: 22px;
+    top: 55px;
+}
+
+.i11 {
+    position: relative;
+    left: 30px;
+    top: 35px;
+}
+
+.i12 {
+    position: relative;
+    left: 60px;
+    top: 22px;
+}
+
+.i13 {
+    position: relative;
+    left: 97px;
+    top: 61px;
+}
+
+.i14 {
+    position: relative;
+    left: 112px;
+    top: 12px;
+}
+
+.i15 {
+    position: relative;
+    left: 137px;
+    top: 40px;
+}
+
+.i16 {
+    position: relative;
+    right: 5px;
+    top: 5px;
+}
+
+.i17 {
+    position: relative;
+    right: 9px;
+    top: 3px;
+}
+
+.i18 {
+    position: relative;
+    right: 12px;
+    bottom: 18px;
+}
+
+.i19 {
+    align-self: center;
+    position: relative;
+    top: 30px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.i20 {
+    align-self: center;
+    position: relative;
+    top: 30px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;}
+
+.i21 {
+    align-self: center;
+    position: relative;
+    top: 30px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.i22 {
+    align-items: center;
+    position: relative;
+    top: 20px;
+    right: 5px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.i23 {
+    align-items: center;
+    position: relative;
+    top: 20px;
+    right: 3px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.i24 {
+    align-items: center;
+    position: relative;
+    top: 20px;
+    left:5px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+
+.text1 {
+    position: relative;
+    top: 210px;
+    font-family: ﻿Dosis-ExtraLight, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 36pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+}
+
+.text2 {
+    position: absolute;
+    font-family: ﻿Dosis-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 22pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    background-image: url("images/Rounded Rectangle 2@1X.png");
+    height: 104px;
+    bottom: -30px;
+}
+
+.text3 {
+    position: relative;
+    bottom: 110px;
+    font-family: ﻿Dosis-ExtraLight, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 90pt;
+    color: rgba(119, 25, 33, 255);
+    text-align: center;
+}
+
+.text4{
+    position: relative;
+    right: 9px;
+    bottom: 15px;
+    font-family: ﻿Dosis-Book, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 16pt;
+    color: rgba(119, 25, 33, 255);
+    text-align: center;
+}
+
+.text5{
+    position: relative;
+    right: 7px;
+    bottom: 30px;
+    font-family: ﻿Dosis-Book, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 16pt;
+    color: rgba(119, 25, 33, 255);
+    text-align: center;
+}
