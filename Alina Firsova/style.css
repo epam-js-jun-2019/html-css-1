@@ -1,0 +1,186 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.span{
+    font-size: 10px; 
+    font-family: Francois One, bold; 
+    color: white;
+   }
+p{ 
+    
+    font-family: Francois One, bold; 
+    color: white;
+   }
+
+
+   
+.background{
+    background-image:url(img/back_main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+
+}
+
+.week{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 20px 15px 0 15px;
+
+}
+
+.day{
+    color: white;
+    font-weight: bold;
+    font-family:Helvetica, monospace;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    font-size: 12px;
+    text-align: center;
+
+
+
+
+}
+
+.name {
+    padding-bottom: 10px;
+}
+
+.image-div {
+    height: 25px;
+}
+
+.image-sun-div {
+    height: 25px;
+    position: relative;
+}
+
+.image-sun-div img {
+    position: absolute;
+    top: -3px;
+    left: 0;
+}
+
+.value {
+    padding-top: 3px;
+}
+
+.container {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    width: 615px;
+    height: 410px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 70px rgba(0,0,0,0.9)
+}
+
+.row{
+display: flex;
+flex-wrap:wrap;
+flex-direction:row;
+}
+
+.chicago{
+background-image:url(img/chicago_back.png);
+background-repeat: no-repeat;
+width: 205px;
+height: 205px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+
+}
+.seattle{
+
+background-image:url(img/seattle_back.png);
+background-repeat: no-repeat;
+background-size: contain;
+width: 205px;
+height: 205px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+}
+.brooklyn{
+
+background-image:url(img/brooklyn_back.png);
+background-repeat: no-repeat;
+background-size: contain;
+width: 205px;
+height: 205px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+}
+.portland{
+
+background-image:url(img/portland_back.png);
+background-repeat: no-repeat;
+width: 205px;
+height: 205px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+
+}
+.week_top{
+background-image:url(img/week_back1.png);
+background-repeat: no-repeat;
+background-size: contain;
+width: 205px;
+height: 205px;
+height: 205px;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+flex-direction:column;
+}
+
+.week_bottom{
+background-image:url(img/week_back2.png);
+background-repeat: no-repeat;
+background-size: contain;
+width: 205px;
+height: 99px;
+
+}
+
+.san_jose{
+background-image:url(img/san_jose_back.png);
+background-repeat: no-repeat;
+background-size: contain;
+width: 205px;
+height: 205px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+}
+
+.element{
+padding: 10px; 
+color: white;
+font-weight: bold;
+font-family:Helvetica, monospace;
+}
+
+.day_elem{
+    padding: 3px;   
+}
