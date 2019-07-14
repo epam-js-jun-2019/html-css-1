@@ -58,7 +58,7 @@ body {
     &__top-info {
         @include flex(space-between, center);
         padding-bottom: 5%;
-        font-family: 'ProximaNova-Light', 'Arial', sans-serif;;
+        font-family: 'ProximaNova-Light', 'Arial', sans-serif;
         color: #8d9396;
     }
 
@@ -88,7 +88,7 @@ body {
     }
 
     &__location {
-        font-family: 'SourceSansPro-SemiBold', 'Arial', sans-serif;;
+        font-family: 'SourceSansPro-SemiBold', 'Arial', sans-serif;
     }
 
     &__date {
@@ -96,7 +96,7 @@ body {
         flex-direction: column;
         width: 16.5%;
         padding: 13px 0;
-        font-family: 'OpenSans-Regular', 'Arial', sans-serif;;
+        font-family: 'OpenSans-Regular', 'Arial', sans-serif;
         font-size: 14px;
         font-weight: bold;
         text-transform: uppercase;

@@ -5,7 +5,7 @@
 %bottom-icon {
     @include flex(center, center);
     width: 30%;
-    font-family: 'ProximaNova-Regular';
+    font-family: 'ProximaNova-Regular', 'Arial', sans-serif;
     font-weight: 500;
     font-size: 14px;
 }
