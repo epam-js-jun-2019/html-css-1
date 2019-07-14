@@ -1,0 +1,24 @@
+@mixin font($name) {
+    @font-face {
+        font-family: '#{$name}';
+        src: local('#{$name}'),
+            url(../fonts/#{$name}.eot) format('eot'),
+            url(../fonts/#{$name}.ttf) format('ttf'),
+            url(../fonts/#{$name}.woff) format('woff');
+    }
+}
+
+@mixin flex($justify-content: flex-start, $align-items: flex-start, $flex-direction: row) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+@mixin icon ($width: 0, $heigth: 0, $bgX: 0, $bgY: 0) {
+    content: '';
+    width: $width;
+    height: $heigth;
+    margin-right: 20%;
+    background-position: $bgX, $bgY;
+    @extend %sprite;
+}
