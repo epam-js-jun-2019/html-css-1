@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,34 +8,38 @@
     <title>New Jersey</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-    <article class="weather-widget">
-        <section class="weather-widget__top">
-            <div class="weather-widget__image">
-                <img src="img/cloudy.png" alt="">
-                <button></button> 
-            </div>
-            <div class="weather-widget__top-info">
-                <div class="weather-widget__degrees">79 <sup>o</sup></div>
-                <div class="weather-widget__text">
-                    <span class="weather-widget__sky">Cloudy Skies</span>
-                    <span class="weather-widget__location">Sicklerville, New Jersey</span>
+    <div class="container">
+        <article class="weather-widget">
+            <section class="weather-widget__top">
+                <div class="weather-widget__image">
+                    <img class="weather-widget__image-img" src="img/cloudy.png" alt="cloudy weather image">
+                    <button class="weather-widget__image-btn" alt="update"></button>
                 </div>
-                <div class="weather-widget__date">May<span>21</span></div>
-            </div>
-        </section>
-        <section class="weather-widget__bottom">
-            <div class="weather-widget__bottom-info">
-                <span class="weather-widget__wind">2 MPH</span>
-                <span class="weather-widget__humidity">33%</span>
-                <span class="weather-widget__clear">83%</span>
-            </div>
-            <div class="weather-widget__pagination">
-                <span class="weather-widget__dot weather-widget__dot_active"></span>
-                <span class="weather-widget__dot"></span>
-                <span class="weather-widget__dot"></span>
-            </div>
-        </section>
-    </article>
+                <div class="weather-widget__top-info">
+                    <div class="weather-widget__degrees">79 <sup class="weather-widget__degrees-symbol">o</sup></div>
+                    <div class="weather-widget__text">
+                        <span class="weather-widget__sky">Cloudy Skies</span>
+                        <span class="weather-widget__location">Sicklerville, New Jersey</span>
+                    </div>
+                    <div class="weather-widget__date">May<span class="weather-widget__date-day">21</span></div>
+                </div>
+            </section>
+            <section class="weather-widget__bottom">
+                <div class="weather-widget__bottom-info">
+                    <span class="weather-widget__wind">2 MPH</span>
+                    <span class="weather-widget__humidity">33%</span>
+                    <span class="weather-widget__clear">83%</span>
+                </div>
+                <div class="weather-widget__pagination">
+                    <span class="weather-widget__dot weather-widget__dot_active"></span>
+                    <span class="weather-widget__dot"></span>
+                    <span class="weather-widget__dot"></span>
+                </div>
+            </section>
+        </article>
+    </div>
 </body>
+
 </html>
