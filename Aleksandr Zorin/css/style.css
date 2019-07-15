@@ -1,0 +1,126 @@
+body {
+	background-image: url(../img/background.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Dosis', sans-serif;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+.weatherWidget {
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.location {
+	background-image: url(../img/city.jpg);
+	background-size: cover;
+	width: 500px;
+	border-radius: 10px 0px 0px 10px;
+	box-shadow: 0px 0px 100px 1px black;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.information {
+	box-sizing: border-box;
+	width: 500px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #FFFFFF;
+	border-radius: 0px 10px 10px 0px;
+	box-shadow: 0px 0px 50px 1px black;
+	display: flex;
+	flex-direction: column;
+}
+
+.temp {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 100pt;
+	font-weight: 200;
+	color: #8E4140;
+	text-align: center;	
+	border-bottom: 2px solid #8E4140;
+}
+
+.graph {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #8E4140;
+}
+
+.days {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.weatherType {
+	background: rgba(46,28,37,0.89);
+	font-size: 60pt;
+	line-height: 1.5;
+	font-weight: 200;
+	text-align: center;
+	color: white;
+}
+
+.today {
+	background: rgba(119,25,33,0.89);
+	font-size: 20pt;
+	font-weight: 300;
+	text-align: center;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.weatherTypeLogo {
+	box-sizing: content-box;
+	height: 100%;
+	text-align: center;
+	padding-top: 85px;
+	padding-bottom: 84px;
+}
+
+.wrapper {
+	text-align: center
+}
+
+.day {
+	font-size: 16pt;
+	font-weight: 40;
+	line-height: 2;
+	text-align: center
+}
+
+.weekdayInformation {
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #8E4140;
+}
+
+.nightTimeTemp {
+	color: black;
+}
+
+.dayWeatherLogo {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.weekday {
+	border-bottom: 2px solid #8E4140;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
