@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tokyo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Weather Widjet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:200,400,500,700&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <section class="widjet container">
+                <div class="widjet__leftside">
+                    <img class="big-sun-icon" src="img/sun.png" alt="sun icon">
+                    <div class="widjet__weather-inner">
+                        <span class="widjet__weather">Sunny</span>
+                    </div>
+                    <div class="widjet__info-inner">
+                        <span class="widjet__info">Tokyo - Wednesday, July 31</span>
+                    </div>
+                </div>
+                <div class="widjet__rightside">
+                    <div class="widjet__temperature-inner">
+                        <span class="widjet__temperature">28 &deg;C</span>
+                    </div>
+                    <div class="graph-inner">
+                        <object type="image/svg+xml" data="img/graph.svg" class="graph"></object>
+                    </div>
+                    <div class="days-inner">
+                        <ul class="day">
+                            <li class="day__icon-inner">
+                                <object type="image/svg+xml" data="img/sun_icon.svg" class="day__icon"></object>
+                            </li>
+                            <li class="day__weekday-inner">
+                                <span class="day__weekday">Thu</span>
+                            </li>
+                            <li class="day__temperature-inner">
+                                <span class="day__temperature">28&deg;C</span>
+                            </li>
+                            <li class="day__temperature-inner">
+                                <span class="day__temperature day__temperature_black">18&deg;C</span>
+                            </li>
+                        </ul>
+                        <ul class="day">
+                            <li class="day__icon-inner">
+                                <object type="image/svg+xml" data="img/sun_cloud_icon.svg" class="day__icon"></object>
+                            </li>
+                            <li class="day__weekday-inner">
+                                <span class="day__weekday">Fri</span>
+                            </li>
+                            <li class="day__temperature-inner">
+                                <span class="day__temperature">22&deg;C</span>
+                            </li>
+                            <li class="day__temperature-inner">
+                                <span class="day__temperature day__temperature_black">20&deg;C</span>
+                            </li>
+                        </ul>
+                        <ul class="day">
+                            <li class="day__icon-inner">
+                                <object type="image/svg+xml" data="img/sun_cloud_icon.svg" class="day__icon"></object>
+                            </li>
+                            <li class="day__weekday-inner">
+                                <span class="day__weekday">Sat</span>
+                            </li>
+                            <li class="day__temperature-inner">
+                                <span class="day__temperature">30&deg;C</span>
+                            </li>
+                            <li class="day__temperature-inner">
+                                <span class="day__temperature day__temperature_black">27&deg;C</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+    </div>
+</body>
+</html>
