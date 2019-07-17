@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,600&display=swap" rel="stylesheet">
+  <title>Tokyo Weather Widget</title>
+</head>
+<body>
+  <article class="weather-container_main">
+    <div class="weather-container_widget">
+      <div class="weather-container_first-half">
+        <div class="current-weather__state"><img class="current-weather__state_image" src="./assets/images/icons/sun-ico.png" alt="sun icon"></div>
+        <p class="current-weather__desc">Sunny</p>
+        <p class="current-weather__date">Tokyo - Wednesday, July 31</p>
+      </div>
+      <div class="weather-container_second-half">
+        <div class="current-weather__temperature"><p>28 &deg;C</p></div>
+        <div class="current-weather__graph"><img class="current-weather__graph_image" src="./assets/images/graph.png" alt="weather graph"></div>
+        <ul class="current-weather__next-days">
+          <li class="day">
+            <img class="day_symb" src="./assets/images/icons/sunny.png" alt="sunny icon"><div class="current-weather__day day-props">Thu</div><p class="day-props">28&deg;C</p><p class="night-props">18&deg;C</p>
+          </li>
+          <li class="day">
+              <img class="day_symb" src="./assets/images/icons/cloudy.png" alt="cloudy icon"><p class="current-weather__day day-props">Fri</p><p class="day-props">22&deg;C</p><p class="night-props">20&deg;C</p>
+          </li>
+          <li class="day">
+              <img class="day_symb" src="./assets/images/icons/cloudy.png" alt="cloudy icon"><p class="current-weather__day day-props">Sat</p><p class="day-props">30&deg;C</p><p class="night-props">27&deg;C</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </article>
+</body>
+</html>
