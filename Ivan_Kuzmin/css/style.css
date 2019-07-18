@@ -12,15 +12,15 @@ body {
 }
 
 .back-cities {
-    width: 800px;
-    height: 600px;
+    width: 615px;
+    height: 408px;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     margin: auto;
-    background: url("../images/back_black.png") no-repeat;
+    box-shadow: 0px 0px 60px 20px rgb(0, 0, 0);
     background-size: contain;
     display: flex;
     flex-wrap: wrap;
@@ -33,34 +33,33 @@ body {
     width: 205px;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-right: -2px;
 }
 
 .city-block_container {
-    padding: 40px 8px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-.city-block_container img {
+.city-block_img {
+    margin-top: 40px;
     margin-bottom: 15px;
-}
-
-.week .week_block-img, .week .week_weather-info {
-    text-align: center;
-}
-
-.week .week_block-img img {
-    width: 60px;
-    padding-top: 20px;
-}
-
-.city-block_container img {
     width: 90px;
     height: 70px;
 }
 
+.week .week_block-img,
+.week .week_weather-info {
+    text-align: center;
+}
+
+.week_block_img {
+    width: 60px;
+    padding-top: 20px;
+}
+
 .week_weather-info {
-    background: url("../images/week_back2.png");
+    background: #b23254;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -69,10 +68,10 @@ body {
     align-items: center;
 }
 
-.week_block-img, .week_weather-info {
+.week_block-img,
+.week_weather-info {
     height: 50%;
 }
-
 
 .week_weather-info div {
     padding: 10px 5px;
@@ -82,31 +81,31 @@ body {
     margin-bottom: 5px;
 }
 
-.week_weather-info div img {
+.week-weather_img {
     width: 24px;
     height: 18px;
 }
 
 .chicago {
-    background: url("../images/chicago_back.png");
+    background-color: #00c2e3;
 }
 
 .seattle {
-    background: url("../images/seattle_back.png");
+    background-color: #59da99;
 }
 
 .brooklyn {
-    background: url("../images/brooklyn_back.png");
+    background-color: #7557f8;
 }
 
 .portland {
-    background: url("../images/portland_back.png");
+    background-color: #eac24c;
 }
 
 .week {
-    background: url("../images/week_back1.png");
+    background-color: #e65579;
 }
 
 .san-jose {
-    background: url("../images/san_jose_back.png");
+    background-color: #cc70d8;
 }
