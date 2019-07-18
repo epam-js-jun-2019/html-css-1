@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    font-weight: 900;
+    font-family: "Avenir Next", Arial, sans-serif;
+    color: white;
+}
+
+body {
+    background: url("../images/back_main.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.back-cities {
+    width: 615px;
+    height: 408px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    box-shadow: 0px 0px 60px 20px rgb(0, 0, 0);
+    background-size: contain;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.back-cities .city-block {
+    height: 205px;
+    width: 205px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.city-block_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.city-block_img {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    width: 90px;
+    height: 70px;
+}
+
+.week .week_block-img,
+.week .week_weather-info {
+    text-align: center;
+}
+
+.week_block_img {
+    width: 60px;
+    padding-top: 20px;
+}
+
+.week_weather-info {
+    background: #b23254;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.week_block-img,
+.week_weather-info {
+    height: 50%;
+}
+
+.week_weather-info div {
+    padding: 10px 5px;
+}
+
+.week_weather-info div p {
+    margin-bottom: 5px;
+}
+
+.week-weather_img {
+    width: 24px;
+    height: 18px;
+}
+
+.chicago {
+    background-color: #00c2e3;
+}
+
+.seattle {
+    background-color: #59da99;
+}
+
+.brooklyn {
+    background-color: #7557f8;
+}
+
+.portland {
+    background-color: #eac24c;
+}
+
+.week {
+    background-color: #e65579;
+}
+
+.san-jose {
+    background-color: #cc70d8;
+}
