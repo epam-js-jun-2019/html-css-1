@@ -49,7 +49,6 @@ main {
 
 /*секция с температурой,локацией,ветром*/
 .info {
-    display: table-cell;
     text-align: center;
 }
 .temp {
@@ -82,6 +81,7 @@ main {
 .days_nav {
     background:rgba(0,0,0,0.5);
     margin: 10% 0 0 0;
+    padding: 10px;
 }
 ul {
     list-style: none; 
@@ -103,6 +103,7 @@ li {
 
 .icon {
     height: 40px;
+    margin: 10px;
 }
 .divider{
     border-left: 1px solid; 
