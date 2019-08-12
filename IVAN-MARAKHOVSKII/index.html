@@ -1,64 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css" />
-    <link rel="stylesheet" href="style.css" />
-    <title>New Jersey</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="grid">
-      <div class="wheatherWidget">
-        <div class="refreshIcon">
-          <img src="refresh.png" alt="" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>New Jersey</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="grid">
+    <div class="wheather-widget">
+      <div class="refresh-icon">
+        <img src="refresh.png" alt="" />
+      </div>
+      <div class="wheather-image">
+        <img src="cloud_icon.png" alt="" />
+      </div>
+      <div class="info-block">
+        <div class="temp-info-left">79&deg;</div>
+        <div class="info-text">
+          <span class="info-text-top">Cloudy Skies</span>
+          <span class="info-text-bottom">Sicklerville, New Jersey</span>
         </div>
-        <div class="wheatherImage">
-          <img src="cloud_icon.png" />
-        </div>
-        <div class="infoBlock">
-          <img src="tempIcon.png" class="tempIcon" />
-          <div class="infoText">
-            <span class="infoTextTop">Cloudy Skies</span><br /><span
-              class="infoTextBottom"
-              >Sicklerville, New Jersey</span
-            >
-          </div>
-          <div class="dayInfo">
-            <span class="topDayText">MAY</span>
-            <span class="bottomDayText">21</span>
-          </div>
-        </div>
-        <div class="stats">
-          <div class="firstPage">
-            <div class="wind">
-              <img src="wind.png" alt="" />
-              <span><b>2 MPH</b></span>
-            </div>
-            <div class="humidity">
-              <img src="waterdrop.png" alt="" />
-              <span><b>33</b>%</span>
-            </div>
-            <div class="sun">
-              <img src="sun.png" alt="" />
-              <span><b>83</b>%</span>
-            </div>
-          </div>
-          
-        <div class="pagination">
-            <img src="dot1.png" alt="">
-          
-            <img src="dot2.png" alt="">
-            
-            <img src="dot3.png" alt="">
-          </div>
+        <div class="day-info">
+          <span class="topDayText">May</span>
+          <span class="bottomDayText">21</span>
         </div>
       </div>
+      <div class="stats">
+        <div class="first-page">
+          <div class="wind">
+            <img src="wind.png" alt="" />
+            <span>2 MPH</span>
+          </div>
+          <div class="humidity">
+            <img src="waterdrop.png" alt="" />
+            <span>33%</span>
+          </div>
+          <div class="sun">
+            <img src="sun.png" alt="" />
+            <span>83%</span>
+          </div>
+        </div>
+
+        <ul class="pagination">
+          <li>
+            <img src="dot1.png" alt="" />
+          </li>
+          <li>
+            <img src="dot2.png" alt="" />
+          </li>
+          <li>
+            <img src="dot3.png" alt="" />
+          </li>
+        </ul>
+      </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
